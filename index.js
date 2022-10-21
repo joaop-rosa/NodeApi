@@ -10,6 +10,7 @@ app.engine('hbs', engine({ extname: '.hbs', defaultLayout: null }));
 app.set('view engine', 'hbs');
 app.set("views", "./views");
 
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors({
     origin: '*'
